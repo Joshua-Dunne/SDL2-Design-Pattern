@@ -1,4 +1,4 @@
-#include "../include/AbstractFactory.h"
+#include "../include/Abstraction/AbstractFactory.h"
 #include "../include/Game.h"
 #include <vector>
 
@@ -17,6 +17,8 @@ int main(int argc, char** argv)
     }
 
     /*Game game;
-    game.run();
-    return 1;*/
+    game.run();*/
+
+    
+    return 1;
 }
