@@ -1,3 +1,5 @@
+#ifndef BRICK_H
+#define BRICK_H
 #include <iostream>
 
 class Brick
@@ -16,3 +18,5 @@ class SmallBrick : public Brick
 {
     void draw() {std::cout << "Small Brick Drawing" << std::endl;};
 };
+
+#endif
