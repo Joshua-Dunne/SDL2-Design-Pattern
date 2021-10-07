@@ -29,7 +29,7 @@ int main(int argc, char** argv)
     DrawAPI* vulkanAPI = new DrawVulkan();
     Brick* vulkanBrick = new BridgeBrick(vulkanAPI);
     vulkanAPI->draw();
-
+    
     std::cin.get();
    
     return 1;
